@@ -1,15 +1,15 @@
-#include "iostream" 
+#include <iostream> 
 #include <stdlib.h>
-#include "InsertioSort.cc"
-#include "bubblesort.cc"
-#include "SelectionSort.cc"
-#include "Imprimir.cc"
+#include ".\src\InsertioSort.cc"
+#include ".\src\bubblesort.cc"
+#include ".\src\SelectionSort.cc"
 #include <time.h>
-#include "Arreglo.cc" 
+#include ".\src\Arreglo.cc"
+#include <cstddef>
+#include <ostream>
 
 
 using namespace std;
-
 
 
 int main(){
@@ -23,7 +23,6 @@ int main(){
     ordenamiento_insercion(pive, tam);
     ordenamiento_burbuja(pive,tam);
     ordenamiento_seleccion(pive,tam);
-    //print_array(pive,tam);
      
     return 0;
 }

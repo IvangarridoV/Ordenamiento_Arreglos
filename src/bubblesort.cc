@@ -1,3 +1,5 @@
+#include <ostream>
+#include <iostream>
 int ordenamiento_burbuja(int a[], int n){  // a= [7,5,2,9] //a= [5,2,7,9]
     int interruptor=1; //n=4
 
@@ -16,7 +18,6 @@ int ordenamiento_burbuja(int a[], int n){  // a= [7,5,2,9] //a= [5,2,7,9]
     } 
     std::cout<<"Bubblesort: " << std::endl;
     for(int i=0; i<=n-1; i++){
-        a[i] = rand()%100;
         std::cout<<"|"<< a[i]<<"|";
     } 
     std::cout<< std::endl ;
