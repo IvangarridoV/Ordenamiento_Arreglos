@@ -11,9 +11,9 @@
 
 using namespace std;
 
-
 int main(){
-    
+    int n = 0;
+    do{ 
     int tam;
     cout << "Tamanio: ";
     cin>>tam;
@@ -23,6 +23,8 @@ int main(){
     ordenamiento_insercion(pive, tam);
     ordenamiento_burbuja(pive,tam);
     ordenamiento_seleccion(pive,tam);
-     
+    cout <<"Quieres continuar? 0 si, cualquier otro numero no:"  ;  
+    cin>>n;
+    }while(n == 0);
     return 0;
 }
