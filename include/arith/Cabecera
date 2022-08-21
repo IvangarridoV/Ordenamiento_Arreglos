@@ -1,0 +1,30 @@
+#if !defined(Cabecera)
+#define Cabecera
+
+/**
+ * @brief Rellena un arreglo con números aleatorios 
+ * @param arreglo Es el arreglo xD
+ * @param tam Es el tamaño del arreglo
+ */
+int crearArreglo(int arreglo[], int tam);
+
+/**
+ * @brief Ordena números aleatorios con el método bubblesort    
+ * @param a[] es el arreglo de los números aleatorios
+ * @param n Es el tamaño del arreglo.
+ */
+int ordenamiento_burbuja(int a[], int n);
+
+/**
+ * @brief Ordena números aleatorios con el método InsertioSort
+ * @param a[] es el arreglo de los números aleatorios
+ * @param n Es el tamaó del arreglo
+ */
+int ordenamiento_insercion(int a[],int n);
+
+/**
+ * @brief Ordena números aleatiorios con el método InsertioSort
+ * @param a[] Es el arreglo de números aleatorios
+ * @param n Es el tamaño del arreglo
+ */
+int ordenamiento_seleccion(int a[], int n);
