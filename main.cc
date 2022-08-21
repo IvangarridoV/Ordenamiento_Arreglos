@@ -23,7 +23,6 @@ int main(){
     ordenamiento_insercion(pive, tam);
     ordenamiento_burbuja(pive,tam);
     ordenamiento_seleccion(pive,tam);
-
      
     return 0;
 }
