@@ -3,6 +3,7 @@ Esta biblioteca tiene la función de ordenar números aleatorios con un tamaño 
 Se implementaron 3 métodos para la realización del ordenamiento.
 Estos son: Bubble sort, Insertio sort y Selection sort.
 
+![Screenshot](estructuradearchivos.png)
 
 
 La estructura de archivos que usamos para la creación de las bibliotecas, fue la siguiente:
