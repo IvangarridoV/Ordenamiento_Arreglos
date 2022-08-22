@@ -4,7 +4,7 @@ Se implementaron 3 métodos para la realización del ordenamiento.
 Estos son: Bubble sort, Insertio sort y Selection sort.
 
 
-![Screenshot](estructuradearchivos.png)
+![Screenshot](estructuradearchivos3.png)
 
 
 
