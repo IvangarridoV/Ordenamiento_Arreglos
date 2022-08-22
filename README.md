@@ -85,3 +85,36 @@ Biblioteca dinámica:
 
     - .\<nombre del ejecutable>.exe 
     Este comando ejecuta el archivo con la bilbioteca dinámica.
+    
+- Función bubblesort
+    La función se ocupa para hacer el ordenamiento de burbuja que consiste en ir comparando ciertos números y si están desordenados los ira acomodando de izquierda a derecha. 
+    Ejemplo: 75,19,23,76.
+    Primero comparara el 75 y 19. Si el 75 es mayor que 19 se intercambiara la posición quedando 19, 75,23,76. Después la siguiente comparación será el 75 y 23. Si el 75 es mayor que 23 se intercambiaran de posición y quedara de la siguiente forma 19,23,75,76. Finalmente se hará la última comparación que es si el 75 es mayor que 76 se hace el cambio de posición. En este caso el 75 no es mayor que 76 así que el ordenamiento quedara 19,23,75,76.
+
+- Función Quicksort
+    La función se ocupa para hacer un ordenamiento rápido. Consiste ir dividiendo el arreglo en partes muy pequeñas hasta ordenarlo. por ejemplo: 5,10,3,2,7.
+    Se tomará el pivot ósea el primer número que es 5 y después se ira comparando con los elementos del arreglo. Se hará una comparación de acuerdo a si son mayores que el pivot o menores que el pivot. Si el elemento es menor que el 5 se añade a la izquierda  si no se añade a la derecha. Se hará lo mismo que con resto de los números, quedando de la siguiente forma 3,2,5,10,7. Para ordenar los siguientes términos se hará lo mismo hasta ordenar todos los elementos quedando 2,3,5,7,10.
+
+- Función InsertioSort
+    Consiste en ir comparando dos elementos del arreglo y se empieza con los dos primeros. Si el elemento 0 es menor que el otro elemento 1 a comparar se pondrá  el elemento 0 de lado izquierdo y así sucesivamente.  Lo ira retirando el elemento de la lista y lo volverá a poner en la lista, pero esta vez en su posición correcta con respecto a una lista.
+    Ejemplo:
+    20,4,8,11,23,3,5(20<4) acomodado será 4,20,8,11,23,3,5 
+    4,20,8,11,23,3,5(20<8) acomodado será 4,8,20,11,23,3,5
+    4,8,20,11,23,3,5(20<11) acomodado 4,8,11,20,23,3,5
+    4,8,11,20,23,3,5(20<23) acomodado 4,8,11,20,23,3,5
+    4,8,11,20,23,3,5(23<3) acomodado 3,4,8,11,20,23,5 ( el insetio sort hace la comparación con todos los números, aunque nosotros no lo veamos por ello pasa el 3 hasta el principio)
+    3,4,8,11,20,23,3,5(23<5) acomodado 3,4,5,8,11,20,23
+
+- Función SelectionSort
+    Ordenamiento por selección. Cosiste en encontrar el menor de todos los elementos del arreglo o vector e intercambiarlo con el que está en la primera posición. Luego el segundo mas pequeño y así sucesivamente hasta ordenarlo todo.
+    4,3,1,6,5,2   Arreglo original.
+    4,3,1,6,5,2   Empieza la función y encuentra al menor de todo el arreglo.
+    1,4,3,6,5,2   Lo acomoda.
+    1,4,3,6,5,2   Vuelve a buscar el segundo termino menor lo encuentra.
+    1,2,4,3,6,5   Lo acomoda.
+    1,2,4,3,6,5   Vuelve a buscar el tercer termino menor lo encuentra.
+    1,2,3,4,6,5   Lo acomoda.
+    1,2,3,4,6,5   Vuelve a buscar el segundo termino menor lo encuentra.
+    1,2,3,4,6,5    Lo acomoda.
+    1,2,3,4,6,5   Vuelve a buscar el segundo termino menor lo encuentra.
+    1,2,3,4,5,6    Lo acomoda.    
