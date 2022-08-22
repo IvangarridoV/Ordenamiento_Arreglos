@@ -3,34 +3,11 @@ Esta biblioteca tiene la función de ordenar números aleatorios con un tamaño 
 Se implementaron 3 métodos para la realización del ordenamiento.
 Estos son: Bubble sort, Insertio sort y Selection sort.
 
+
+
 ![Screenshot](estructuradearchivos.png)
 
 
-La estructura de archivos que usamos para la creación de las bibliotecas, fue la siguiente:
-.
-├── app
-│   |──test.exe
-├── include
-│   └── arith
-├── lib
-    |──orden.dll
-    |──arith.lib
-    ── 
-├── main.cc
-|── main.exe
-|── orden.dll
-|── orden.dlltree
-|── ordenamiento.exe
-├── obj
-    |── Arreglo.o
-    |── bubblesort.o
-    |── InsertioSort.o
-    |── SelectionSort.o
-└── src 
-    ├── Arreglo.cc
-    ├── bubblesort.cc
-    ├── SelectionSort.cc
-    |── InsertioSort.cc 
 
 Los comandos que utilizamos para la realización del proyecto fueron:
 
