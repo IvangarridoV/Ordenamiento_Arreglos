@@ -5,7 +5,7 @@ Estos son: Bubble sort, Insertio sort y Selection sort.
 
 
 
-![Screenshot](estructuradearchivos.png)
+
 
 
 
